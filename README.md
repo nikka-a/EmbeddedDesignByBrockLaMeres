@@ -1,4 +1,5 @@
-# 📚 Embedded Systems Design using the MSP430FR2355 LaunchPad by Brock LaMeres
+# Embedded Systems Design exercises
+Based on 📚MSP430FR2355 LaunchPad by Brock LaMeres.
 
 <p>
   <img src="https://cdn-icons-png.flaticon.com/128/1887/1887090.png" width="20" align="center">
@@ -11,7 +12,7 @@
 
 ## About
 
-This repository contains modified source codes with explanations from the book/Youtube playlist and, in future, an answer key to exercises at the end of each chapter. 
+This repository contains modified source code with explanations from the book and YouTube playlist, and an answer key to exercises at the end of each chapter. 
 
 ## Goal
 
@@ -26,26 +27,34 @@ flowchart TB
     Root["main"]
     Root --> ASM["/asm"]
     Root --> C["/c"]
-    Root --> AnswerKeys["/answer keys"]
+    Root --> AnswerKeys["/answer_keys"]
 
-    ASM --> ASMExercise["/XX_exersice name"]
-    C --> CExercise["/XX_exersice name"]
+    ASM --> ASMExercise["/XX_exercise_name"]
+    C --> CExercise["/XX_exercise_name"]
 
-    ASMExercise --> ASMSource["source code.asm"]
-    ASMExercise --> ASMNote["explanation.txt"]
+    ASMExercise --> ASMSource["source_code.asm"]
+    ASMExercise --> ASMNote["explanation.md"]
 
-    CExercise --> CSource["source code.c"]
-    CExercise --> CNote["note.txt"]
+    CExercise --> CSource["source_code.c"]
+    CExercise --> CNote["explanation.md"]
 
-    AnswerKeys --> AnswerChapter["/chapter X"]
-    AnswerChapter --> AnswerTxt["answerkey.txt"]
+    AnswerKeys --> AnswerChapter["/chapter_X"]
+    AnswerChapter --> AnswerTxt["answerkey.md"]
 ```
 
 Files in folders are numbered and named by their functions. Each exercise source code is accompanied by an in-depth explanation and overview of relevant concepts. 
+* Each folder can be run in CCS with no modifications.
+
+Example:
+```
+~/asm/01_BLINKY/...
+```
 
 ## Tools Used
 
-I used Code Composer Studio writing with ASM and C languages for MSP430FR2355 LaunchPad.
+- Code Composer Studio
+- ASM (MSP430)
+- C (MSP430)
 
 ## Contributing
 
@@ -56,3 +65,11 @@ Feel free to suggest improvements and point out mistakes.
 - [ ] ASM portion (0/38)
 - [ ] C portion (0/?)
 - [ ] Answer Key (0/17)
+
+## How To Use
+
+- Clone the repo
+- Open the exercise folder in CCS (Code Composer Studio)
+- Navigate to the desired exercise file
+- Build and run the code
+- Make the MSP430 blink :)
