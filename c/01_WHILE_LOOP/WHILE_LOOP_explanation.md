@@ -3,7 +3,7 @@
 
 This file contains an example of an infinite loop, which increments a counter. 
 
-Concepts covered
+Concepts covered:
 - (infinite) while loop
 - variable assignment
 - variable incrementation
