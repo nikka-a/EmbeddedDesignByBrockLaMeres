@@ -3,6 +3,6 @@
 
 This file contains an example of a for loop that updates a variable with a counter.
 
-Concepts:
+Concepts covered:
 - for loop
 - value transfer between variables
