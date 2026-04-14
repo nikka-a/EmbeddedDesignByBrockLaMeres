@@ -78,6 +78,12 @@ Example:
 6. Build and run
 7. Make it blink! :)
 
+<p align="center">
+  <img src="./asm/01_BLINKY/demo.gif" width="300">
+</p>
+
+Blinking demo on MSP430FR2355 from the [Blinky Exercise](./asm/01_BLINKY).
+
 ## Contributing
 
 Feel free to suggest improvements and point out mistakes. 
