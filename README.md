@@ -6,13 +6,13 @@ Based on 📚MSP430FR2355 LaunchPad by Brock LaMeres.
   <b>This repository is under construction</b>
 </p>
 
-## Links
+## Links to the Material
 - [YouTube Playlist](https://www.youtube.com/playlist?list=PL643xA3Ie_EuHoNV7AgvJXq-z1hrE8vsm)
 - [Amazon Listing](https://www.amazon.com/Embedded-Systems-Design-MSP430FR2355-LaunchPadTM/dp/3030405761)
 
 ## About
 
-This repository contains modified source code with explanations from the book and YouTube playlist, and an answer key to exercises at the end of each chapter. 
+This repository contains modified source code with explanations from the book and YouTube playlist, and my solutions to exercises at the end of each chapter. 
 
 ## Goal
 
@@ -28,6 +28,7 @@ flowchart TB
     Root --> ASM["/asm"]
     Root --> C["/c"]
     Root --> AnswerKeys["/answer_keys"]
+    Root --> SkeletonFile["/skeleton_projects"]
 
     ASM --> ASMExercise["/XX_exercise_name"]
     C --> CExercise["/XX_exercise_name"]
@@ -40,10 +41,14 @@ flowchart TB
 
     AnswerKeys --> AnswerChapter["/chapter_X"]
     AnswerChapter --> AnswerTxt["answerkey.md"]
+
+    SkeletonFile --> CFile["c_project.tar"]
+    SkeletonFile --> ASMFile["asm_project.tar"]
 ```
 
 Files in folders are numbered and named by their functions. Each exercise source code is accompanied by an in-depth explanation and overview of relevant concepts. 
-* Each folder can be run in CCS with no modifications.
+* I included a skeleton project with all the necessary dependencies.
+* When possible, there will be a demo included.
 
 Example:
 ```
@@ -52,13 +57,10 @@ Example:
 
 ## Tools Used
 
+- MSP430FR2355 Launchpad
 - Code Composer Studio
 - ASM (MSP430)
 - C (MSP430)
-
-## Contributing
-
-Feel free to suggest improvements and point out mistakes. 
 
 ## Progress Checklist
 
@@ -68,8 +70,18 @@ Feel free to suggest improvements and point out mistakes.
 
 ## How To Use
 
-- Clone the repo
-- Open the exercise folder in CCS (Code Composer Studio)
-- Navigate to the desired exercise file
-- Build and run the code
-- Make the MSP430 blink :)
+1. Connect MSP430FR2355
+2. Clone the repository
+3. Open Code Composer Studio
+4. Import the skeleton project
+5. Replace the source file in the project
+6. Build and run
+7. Make it blink! :)
+
+## Contributing
+
+Feel free to suggest improvements and point out mistakes. 
+
+## Disclaimer 
+
+All solutions and explanations are written by me.
