@@ -64,7 +64,7 @@ Example:
 
 ## Progress Checklist
 
-- [ ] ASM portion (0/38)
+- [ ] ASM portion (3/38)
 - [ ] C portion (0/?)
 - [ ] Answer Key (0/17)
 
