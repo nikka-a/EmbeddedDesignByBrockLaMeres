@@ -43,7 +43,7 @@ main:
             mov.b   @R5, R7                 ; move upper byte into R7
             inc     R5 
             mov.w   @R5, R8                 ; move word from memory into R8  
-            incd    R5
+            incd    R5                      ; increment the address in R5 by two
             mov.w   @R5, R9
 
             jmp     main
