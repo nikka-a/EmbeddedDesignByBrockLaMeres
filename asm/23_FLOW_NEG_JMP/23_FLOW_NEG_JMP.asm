@@ -35,7 +35,7 @@ main:
             tst.b   R5                      ; check if R5 is negative or positive
 
             jn      ItIsNegative            ; jump if N = 1
-            jmp     ItIsPositive            ; jump if N = 0
+            jmp     ItIsPositive            ; go to itispositive
 
 ItIsNegative:
             mov.b   #1, R4                   ; put 1 to R4
