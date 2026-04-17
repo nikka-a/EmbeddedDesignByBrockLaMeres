@@ -31,10 +31,10 @@ main:
             and.b   #00111111b, R5           ; clears bit 6 & 7
 
             mov.b   #00010000b, R6
-            and.b   #10000000b, R6           ; clears all bits but 7
+            and.b   #10000000b, R6           ; check if bit 7 is 1, Z = 0 => no
 
             mov.b   #00010000b, R7
-            and.b   #00010000b, R7           ; clears all bits but 4
+            and.b   #00010000b, R7           ; check if bit 4 is 1, Z = 1 => yes
 
             mov.b   #11000001b, R8
             or.b    #00011111b, R8           ; set bits 4-0
