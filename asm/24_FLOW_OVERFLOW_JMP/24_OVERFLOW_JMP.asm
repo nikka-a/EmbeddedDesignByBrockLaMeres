@@ -30,10 +30,10 @@ init:
 
 main:
 ;           mov.b   #100, R5                ; put 100 into R5
-;           cmp.b   #1, R5                  ; compare 1 to R5, V & N = 0 (because 100 - 1 = 99)
+;           cmp.b   #1, R5                  ; compare 1 to R5, V and N = 0 (because 100 - 1 = 99)
 
             mov.b   #-100, R5               ; put -100 into R5 
-            cmp.b   #99, R5                 ; compare 99 to -100, V & N = 1 (because -100 - 99 = -1)
+            cmp.b   #99, R5                 ; compare 99 to -100, V = 0, N = 1 (because -100 - 99 = -199)
 
             jge     ItIsGreaterOrEqual      ; jmp if greater or equal
             jl      ItIsLessThan            ; jump if less than
