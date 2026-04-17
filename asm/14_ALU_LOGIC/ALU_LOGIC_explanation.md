@@ -1,4 +1,4 @@
-This file contains an example of logic operations on MSP430. The MCU provides four logical operations: ```inv```, ```and```, ```or``` (which is ```bis```. See   X) and```xor```. These operations are also called bitwise operations, because they are used to modify each individual bit on an operand.
+This file contains an example of logic operations on MSP430. The MCU provides four logical operations: ```inv```, ```and```, ```or``` (which is ```bis```. See [Bit set & clear](/asm/15_ALU_BITS_BITC)) and```xor```. These operations are also called bitwise operations, because they are used to modify each individual bit on an operand.
 
 ```inv``` performs a logical ```not``` operation on all the bits. 
 
