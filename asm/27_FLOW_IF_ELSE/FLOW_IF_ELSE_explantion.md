@@ -10,3 +10,5 @@ while(1) {
 }
 
 ```
+Concepts covered:
+- if else implementation
