@@ -90,4 +90,4 @@ Feel free to suggest improvements and point out mistakes.
 
 ## Disclaimer 
 
-All solutions and explanations are written by me.
+All solutions and explanations are written by me using the materials listed above.
